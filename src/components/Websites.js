@@ -125,7 +125,7 @@ export default function Websites(props) {
         <Grid item>
             <Grid container direction='column'>
                 <Grid item>
-                    <Typography variant='h4' gutterBottom align='center' align={matchesSM ? 'center' : undefined}>
+                    <Typography variant='h4' gutterBottom align={matchesSM ? 'center' : undefined}>
                         E-Commerce
                     </Typography>
                 </Grid>
@@ -179,7 +179,7 @@ export default function Websites(props) {
         <Grid item>
             <Grid container direction='column'>
                 <Grid item>
-                    <Typography variant='h4' gutterBottom align='center' align={matchesSM ? 'center' : undefined}>
+                    <Typography variant='h4' gutterBottom align={matchesSM ? 'center' : undefined}>
                         Search Engine <br />Optimization
                     </Typography>
                 </Grid>
